@@ -1,5 +1,5 @@
 #aboutComponent {
-  background-color: black;
+  /* background-color: black; */
   color: white;
 }
 #aboutImgContainer {
@@ -10,4 +10,16 @@
   height: 100%;
   width: 100%;
   object-fit: contain;
+}
+#aboutTextGroup {
+  height: 100%;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 5px solid white; */
+}
+#aboutTitle {
 }
