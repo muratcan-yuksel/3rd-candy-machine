@@ -1,4 +1,5 @@
 #landingComponent {
+  margin-top: 4em;
   height: 100%;
   width: 100%;
 }
@@ -12,7 +13,7 @@
   justify-content: center;
   align-items: center;
   /* background-color: black; */
-  color: black;
+  color: white;
 }
 #landingImgContainer {
   height: 100%;
@@ -44,7 +45,7 @@
   background-color: #04baad;
   font-size: 2em;
   font-weight: 500;
-  color: black;
+  color: white;
 }
 #bannerContainer {
   height: 100%;
