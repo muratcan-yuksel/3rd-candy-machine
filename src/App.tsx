@@ -29,6 +29,7 @@ import About from "./components/About";
 import Roadmap from "./components/Roadmap";
 import Examples from "./components/Examples";
 import Cards from "./components/Cards";
+import Footer from "./components/Footer";
 
 const treasury = new anchor.web3.PublicKey(
   process.env.REACT_APP_TREASURY_ADDRESS!
@@ -114,6 +115,7 @@ const App = () => {
       <Roadmap />
       <Examples />
       <Cards />
+      <Footer />
     </div>
   );
 };

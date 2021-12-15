@@ -1,0 +1,14 @@
+#footerComponent {
+  background-color: black;
+  color: white;
+}
+#footerIconContainer {
+  /* display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: 2px solid red; */
+}
+.footerIcon {
+  margin: 1em;
+  background-color: orange;
+}
