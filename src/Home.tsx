@@ -4,6 +4,9 @@ import Countdown from "react-countdown";
 import { Button, CircularProgress, Snackbar } from "@material-ui/core";
 import Alert from "@material-ui/lab/Alert";
 
+// import Aos from "aos";
+// import "aos/dist/aos.css";
+
 import * as anchor from "@project-serum/anchor";
 
 import { LAMPORTS_PER_SOL } from "@solana/web3.js";
@@ -19,6 +22,10 @@ import {
   shortenAddress,
 } from "./candy-machine";
 
+//my imports
+import { Container, Row, Col } from "react-bootstrap";
+import "./styles/landing.css";
+import IMG from "./assets/greeting.png";
 const ConnectButton = styled(WalletDialogButton)``;
 
 const CounterText = styled.span``; // add your styles here
@@ -157,6 +164,7 @@ const Home = (props: HomeProps) => {
         setBalance(balance / LAMPORTS_PER_SOL);
       }
     })();
+    // Aos.init({ duration: 2000 });
   }, [wallet, props.connection]);
 
   useEffect(refreshCandyMachineState, [
@@ -167,59 +175,106 @@ const Home = (props: HomeProps) => {
 
   return (
     <main>
-      {wallet && (
-        <p>Wallet {shortenAddress(wallet.publicKey.toBase58() || "")}</p>
-      )}
+      <div id="landingComponent">
+        {/* <div id="bannerContainer">
+          <img id="banner" src={banner} alt="" />
+        </div> */}
+        <Container>
+          <Row>
+            <Col xs={6} md={6} sm={6} xl={6} lg={6} xxl={6}>
+              <div id="landingText">
+                <h1 id="landingTitle">Grumpy Gorilla Gang</h1>
+                <p id="landingPara">
+                  {" "}
+                  400 Grumpy Gorillas eating bananas on the Solana Blockchain!
+                  <br />
+                  <br />
+                  “The #1 Alpha Group On Solana”
+                </p>
+                {wallet && (
+                  <p className="walletPara">
+                    Wallet {shortenAddress(wallet.publicKey.toBase58() || "")}
+                  </p>
+                )}
 
-      {wallet && <p>Balance: {(balance || 0).toLocaleString()} SOL</p>}
+                {wallet && (
+                  <p className="walletPara">
+                    Balance: {(balance || 0).toLocaleString()} SOL
+                  </p>
+                )}
 
-      {wallet && <p>Total Available: {itemsAvailable}</p>}
+                {wallet && (
+                  <p className="walletPara">
+                    Total Available: {itemsAvailable}
+                  </p>
+                )}
 
-      {wallet && <p>Redeemed: {itemsRedeemed}</p>}
+                {wallet && (
+                  <p className="walletPara">Redeemed: {itemsRedeemed}</p>
+                )}
 
-      {wallet && <p>Remaining: {itemsRemaining}</p>}
+                {wallet && (
+                  <p className="walletPara">Remaining: {itemsRemaining}</p>
+                )}
 
-      <MintContainer>
-        {!wallet ? (
-          <ConnectButton>Connect Wallet</ConnectButton>
-        ) : (
-          <MintButton
-            disabled={isSoldOut || isMinting || !isActive}
-            onClick={onMint}
-            variant="contained"
-          >
-            {isSoldOut ? (
-              "SOLD OUT"
-            ) : isActive ? (
-              isMinting ? (
-                <CircularProgress />
-              ) : (
-                "MINT"
-              )
-            ) : (
-              <Countdown
-                date={startDate}
-                onMount={({ completed }) => completed && setIsActive(true)}
-                onComplete={() => setIsActive(true)}
-                renderer={renderCounter}
-              />
-            )}
-          </MintButton>
-        )}
-      </MintContainer>
+                <MintContainer>
+                  {!wallet ? (
+                    <ConnectButton id="connectBtn">
+                      Connect Wallet
+                    </ConnectButton>
+                  ) : (
+                    <MintButton
+                      id="mintBtn"
+                      disabled={isSoldOut || isMinting || !isActive}
+                      onClick={onMint}
+                      variant="contained"
+                    >
+                      {isSoldOut ? (
+                        "SOLD OUT"
+                      ) : isActive ? (
+                        isMinting ? (
+                          <CircularProgress />
+                        ) : (
+                          "MINT"
+                        )
+                      ) : (
+                        <Countdown
+                          date={startDate}
+                          onMount={({ completed }) =>
+                            completed && setIsActive(true)
+                          }
+                          onComplete={() => setIsActive(true)}
+                          renderer={renderCounter}
+                        />
+                      )}
+                    </MintButton>
+                  )}
+                </MintContainer>
 
-      <Snackbar
-        open={alertState.open}
-        autoHideDuration={6000}
-        onClose={() => setAlertState({ ...alertState, open: false })}
-      >
-        <Alert
-          onClose={() => setAlertState({ ...alertState, open: false })}
-          severity={alertState.severity}
-        >
-          {alertState.message}
-        </Alert>
-      </Snackbar>
+                <Snackbar
+                  open={alertState.open}
+                  autoHideDuration={6000}
+                  onClose={() => setAlertState({ ...alertState, open: false })}
+                >
+                  <Alert
+                    onClose={() =>
+                      setAlertState({ ...alertState, open: false })
+                    }
+                    severity={alertState.severity}
+                  >
+                    {alertState.message}
+                  </Alert>
+                </Snackbar>
+              </div>
+            </Col>
+            <Col xs={6} md={6} sm={6} xl={6} lg={6} xxl={6}>
+              <div id="landingImgContainer">
+                <img id="landingImg" data-aos="zoom-in" src={IMG} alt="" />
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </div>
     </main>
   );
 };

@@ -15,7 +15,7 @@ import {
 const NavbarComponent = () => {
   return (
     <div id="navbarComponent">
-      <Navbar id="navbarStyling" bg="dark" expand="lg" fixed="top">
+      <Navbar id="navbarStyling" bg="light" expand="lg" fixed="top">
         <Container>
           <Navbar.Brand id="navbarTitle" href="#landingComponent">
             {" "}
