@@ -1,0 +1,12 @@
+#cardsComponent {
+  margin: 3em 0 3em 0;
+  padding: 3em 0 3em 0;
+  background-color: #f78812;
+}
+.cardsContainer {
+  border: 1px solid rgba(17, 17, 17, 0.15);
+  background-color: rgba(17, 17, 17, 0.15);
+  padding: 2em;
+  color: white;
+  border-radius: 10%;
+}
