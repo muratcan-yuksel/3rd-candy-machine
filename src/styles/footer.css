@@ -11,4 +11,6 @@
 .footerIcon {
   margin: 1em;
   background-color: orange;
+  border-radius: 50%;
+  padding: 5px;
 }
