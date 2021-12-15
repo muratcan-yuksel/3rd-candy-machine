@@ -1,0 +1,30 @@
+#roadmapComponent {
+  margin: 3em 0 3em 0;
+  background-color: #f78812;
+}
+.roadmapContainer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.roadmapImgContainer {
+  height: 100%;
+  width: 100%;
+}
+.roadmapImg {
+  height: 85%;
+  width: 85%;
+  object-fit: contain;
+}
+.roadmapBox {
+  height: 100%;
+  width: 100%;
+  border: 5px solid white;
+  background-color: black;
+}
+.roadmapText {
+  color: white;
+}
