@@ -27,6 +27,7 @@ import Landing from "./components/Landing";
 import NavbarComponent from "./components/NavbarComponent";
 import About from "./components/About";
 import Roadmap from "./components/Roadmap";
+import Examples from "./components/Examples";
 
 const treasury = new anchor.web3.PublicKey(
   process.env.REACT_APP_TREASURY_ADDRESS!
@@ -110,6 +111,7 @@ const App = () => {
       </ThemeProvider>
       <About />
       <Roadmap />
+      <Examples />
     </div>
   );
 };
