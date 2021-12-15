@@ -2,3 +2,12 @@
   background-color: black;
   color: white;
 }
+#aboutImgContainer {
+  height: 100%;
+  width: 100%;
+}
+#aboutImg {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
