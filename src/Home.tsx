@@ -181,15 +181,15 @@ const Home = (props: HomeProps) => {
         </div> */}
         <Container>
           <Row>
-            <Col xs={6} md={6} sm={6} xl={6} lg={6} xxl={6}>
+            <Col xs={12} md={6} sm={12} xl={6} lg={6} xxl={6}>
               <div id="landingText">
-                <h1 id="landingTitle">Grumpy Gorilla Gang</h1>
+                <h1 id="landingTitle">Join the club</h1>
                 <p id="landingPara">
                   {" "}
-                  400 Grumpy Gorillas eating bananas on the Solana Blockchain!
+                  Be cool too
                   <br />
                   <br />
-                  “The #1 Alpha Group On Solana”
+                  The best way to feel cool
                 </p>
                 {wallet && (
                   <p className="walletPara">
@@ -267,7 +267,7 @@ const Home = (props: HomeProps) => {
                 </Snackbar>
               </div>
             </Col>
-            <Col xs={6} md={6} sm={6} xl={6} lg={6} xxl={6}>
+            <Col xs={12} md={6} sm={12} xl={6} lg={6} xxl={6}>
               <div id="landingImgContainer">
                 <img id="landingImg" data-aos="zoom-in" src={IMG} alt="" />
               </div>
