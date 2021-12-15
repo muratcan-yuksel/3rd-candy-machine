@@ -25,6 +25,7 @@ import { createTheme, ThemeProvider } from "@material-ui/core";
 //my imports
 import Landing from "./components/Landing";
 import NavbarComponent from "./components/NavbarComponent";
+import About from "./components/About";
 
 const treasury = new anchor.web3.PublicKey(
   process.env.REACT_APP_TREASURY_ADDRESS!
@@ -106,6 +107,7 @@ const App = () => {
           </WalletProvider>
         </ConnectionProvider>
       </ThemeProvider>
+      <About />
     </div>
   );
 };
