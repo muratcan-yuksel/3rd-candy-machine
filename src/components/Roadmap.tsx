@@ -84,13 +84,18 @@ const Roadmap = () => {
                 <img src={roadmapImg} alt="" className="roadmapImg" />
               </div>
               <div className="roadmapBox">
-                <h4 className="roadmapBoxTitle"></h4>
+                <h4 className="roadmapBoxTitle">
+                  PHASE 4: PRE-LAUNCH 2 (Pupa) Day 14
+                </h4>
 
+                <p className="roadmapText">REVEAL BEE FARM TRIP LOCATION</p>
+                <p className="roadmapText">5 sol giveaway for 2 holders</p>
                 <p className="roadmapText">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
-                  qui voluptatem atque fugit blanditiis. Eveniet aperiam
-                  assumenda adipisci impedit pariatur mollitia! Magni dolor
-                  maiores aut numquam nihil quos aperiam beatae.
+                  AFTER 40 DAYS, HOLDERS WILL QUALIFY FOR BEE FARM TRIP,
+                  WHITELIST FOR SECOND MINT.
+                </p>
+                <p className="roadmapText">
+                  COLLABORATION WITH OTHER NFT PROJECTS
                 </p>
               </div>
             </div>
@@ -101,13 +106,21 @@ const Roadmap = () => {
                 <img src={roadmapImg} alt="" className="roadmapImg" />
               </div>
               <div className="roadmapBox">
-                <h4 className="roadmapBoxTitle"></h4>
+                <h4 className="roadmapBoxTitle">
+                  PHASE 5: (Mature Pupa) Day 21
+                </h4>
 
+                <p className="roadmapText">SECOND MINT</p>
                 <p className="roadmapText">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
-                  qui voluptatem atque fugit blanditiis. Eveniet aperiam
-                  assumenda adipisci impedit pariatur mollitia! Magni dolor
-                  maiores aut numquam nihil quos aperiam beatae.
+                  50% MINT OF SECOND MINT- Live Discord and Twitch party + Merch
+                  Giveaway
+                </p>
+                <p className="roadmapText">
+                  20,000 discord (10 beez)/30,000 discord (10 beez)/45,000
+                  discord (10 beez)
+                </p>
+                <p className="roadmapText">
+                  100% MINT OF SECOND MINT- FORM OF COMMUNITY DAO
                 </p>
               </div>
             </div>
@@ -118,13 +131,21 @@ const Roadmap = () => {
                 <img src={roadmapImg} alt="" className="roadmapImg" />
               </div>
               <div className="roadmapBox">
-                <h4 className="roadmapBoxTitle"></h4>
+                <h4 className="roadmapBoxTitle">PHASE 6: (Adult) Day 21</h4>
+
+                <p className="roadmapText">NFT GAME BETA</p>
 
                 <p className="roadmapText">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
-                  qui voluptatem atque fugit blanditiis. Eveniet aperiam
-                  assumenda adipisci impedit pariatur mollitia! Magni dolor
-                  maiores aut numquam nihil quos aperiam beatae.
+                  Discord process of deciding how to spend Community dao
+                </p>
+
+                <p className="roadmapText">
+                  OG Minters only exclusive Twitch release party of NFT BETA
+                  Play-to-Earn game + 5 sol giveaway
+                </p>
+
+                <p className="roadmapText">
+                  10 OG Minter will receive $100 in game credit
                 </p>
               </div>
             </div>
@@ -135,13 +156,12 @@ const Roadmap = () => {
                 <img src={roadmapImg} alt="" className="roadmapImg" />
               </div>
               <div className="roadmapBox">
-                <h4 className="roadmapBoxTitle"></h4>
+                <h4 className="roadmapBoxTitle">
+                  PHASE 7: METAVERSE (Pollination Exploration) Day 21
+                </h4>
 
                 <p className="roadmapText">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
-                  qui voluptatem atque fugit blanditiis. Eveniet aperiam
-                  assumenda adipisci impedit pariatur mollitia! Magni dolor
-                  maiores aut numquam nihil quos aperiam beatae.
+                  Public Release of Needz Beez Play-to-Earn game
                 </p>
               </div>
             </div>
