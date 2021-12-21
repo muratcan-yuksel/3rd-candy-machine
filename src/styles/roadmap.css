@@ -24,7 +24,11 @@
   width: 100%;
   border: 5px solid white;
   background-color: black;
+  padding: 2em;
 }
 .roadmapText {
+  color: white;
+}
+.roadmapBoxTitle {
   color: white;
 }
