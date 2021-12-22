@@ -16,7 +16,7 @@ const Roadmap = () => {
           <Col xs={12} sm={12} md={4} lg={4} xl={4} xxl={4}>
             <div className="roadmapContainer">
               <div className="roadmapImgContainer">
-                <img src={roadmapImg} alt="" className="roadmapImg" />
+                <img src="" alt="" className="roadmapImg" />
               </div>
               <div className="roadmapBox">
                 <h4 className="roadmapBoxTitle">
@@ -30,7 +30,7 @@ const Roadmap = () => {
           <Col xs={12} sm={12} md={4} lg={4} xl={4} xxl={4}>
             <div className="roadmapContainer">
               <div className="roadmapImgContainer">
-                <img src={roadmapImg} alt="" className="roadmapImg" />
+                <img src="" alt="" className="roadmapImg" />
               </div>
               <div className="roadmapBox">
                 <h4 className="roadmapBoxTitle">
@@ -56,7 +56,7 @@ const Roadmap = () => {
           <Col xs={12} sm={12} md={4} lg={4} xl={4} xxl={4}>
             <div className="roadmapContainer">
               <div className="roadmapImgContainer">
-                <img src={roadmapImg} alt="" className="roadmapImg" />
+                <img src="" alt="" className="roadmapImg" />
               </div>
               <div className="roadmapBox">
                 <h4 className="roadmapBoxTitle">
@@ -81,7 +81,7 @@ const Roadmap = () => {
           <Col xs={12} sm={12} md={4} lg={4} xl={4} xxl={4}>
             <div className="roadmapContainer">
               <div className="roadmapImgContainer">
-                <img src={roadmapImg} alt="" className="roadmapImg" />
+                <img src="" alt="" className="roadmapImg" />
               </div>
               <div className="roadmapBox">
                 <h4 className="roadmapBoxTitle">
@@ -103,7 +103,7 @@ const Roadmap = () => {
           <Col xs={12} sm={12} md={4} lg={4} xl={4} xxl={4}>
             <div className="roadmapContainer">
               <div className="roadmapImgContainer">
-                <img src={roadmapImg} alt="" className="roadmapImg" />
+                <img src="" alt="" className="roadmapImg" />
               </div>
               <div className="roadmapBox">
                 <h4 className="roadmapBoxTitle">
@@ -128,7 +128,7 @@ const Roadmap = () => {
           <Col xs={12} sm={12} md={4} lg={4} xl={4} xxl={4}>
             <div className="roadmapContainer">
               <div className="roadmapImgContainer">
-                <img src={roadmapImg} alt="" className="roadmapImg" />
+                <img src="" alt="" className="roadmapImg" />
               </div>
               <div className="roadmapBox">
                 <h4 className="roadmapBoxTitle">PHASE 6: (Adult) Day 21</h4>
@@ -153,7 +153,7 @@ const Roadmap = () => {
           <Col xs={12} sm={12} md={4} lg={4} xl={4} xxl={4}>
             <div className="roadmapContainer">
               <div className="roadmapImgContainer">
-                <img src={roadmapImg} alt="" className="roadmapImg" />
+                <img src="" alt="" className="roadmapImg" />
               </div>
               <div className="roadmapBox">
                 <h4 className="roadmapBoxTitle">
