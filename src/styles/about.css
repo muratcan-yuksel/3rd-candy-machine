@@ -7,9 +7,12 @@
   width: 100%;
 }
 #aboutImg {
-  height: 100%;
+  /* height: 100%; */
+  height: 30em;
+
   width: 100%;
   object-fit: contain;
+  background-color: white;
 }
 #aboutTextGroup {
   height: 100%;

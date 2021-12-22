@@ -269,7 +269,7 @@ const Home = (props: HomeProps) => {
             </Col>
             <Col xs={12} md={6} sm={12} xl={6} lg={6} xxl={6}>
               <div id="landingImgContainer">
-                <img id="landingImg" data-aos="zoom-in" src={IMG} alt="" />
+                <img id="landingImg" data-aos="zoom-in" src="" alt="" />
               </div>
             </Col>
           </Row>

@@ -11,7 +11,9 @@
   align-items: center;
 }
 .roadmapImgContainer {
+  margin: 2em;
   height: 30em;
+  /* height: 100%; */
   width: 100%;
 }
 .roadmapImg {

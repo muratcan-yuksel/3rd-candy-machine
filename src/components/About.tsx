@@ -10,7 +10,7 @@ const About = () => {
         <Row>
           <Col xs={12} sm={12} md={6} lg={6} xl={6} xxl={6}>
             <div id="aboutImgContainer">
-              <img src={aboutImg} alt="" id="aboutImg" />
+              <img src="" alt="" id="aboutImg" />
             </div>
           </Col>
           <Col xs={12} sm={12} md={6} lg={6} xl={6} xxl={6}>
