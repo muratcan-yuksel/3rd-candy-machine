@@ -1,4 +1,11 @@
+@font-face {
+  font-family: mysteryFont;
+  src: url("./assets/fonts/mystery-quest/MysteryQuest-Regular.ttf");
+}
+
 #AppComp {
   text-align: center;
   background-color: black;
+  font-family: mysteryFont, Georgia, Arial, Verdana;
+  font-size: 1.5em;
 }
