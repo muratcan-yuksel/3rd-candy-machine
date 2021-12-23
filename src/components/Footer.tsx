@@ -15,7 +15,7 @@ const Footer = () => {
         <img src={twitter} alt="" className="footerIcon" />
         <img src={insta} alt="" className="footerIcon" />
       </div>
-      <p id="footerPara">© 2021 Cool Club. All rights reserved.</p>
+      {/* <p id="footerPara">© 2021 Cool Club. All rights reserved.</p> */}
     </div>
   );
 };
